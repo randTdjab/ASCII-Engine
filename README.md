@@ -1,5 +1,5 @@
 # ASCIIEngine
-this "Engine" allows for creating games that can run on the terminal, using ASCII characters as Game Objects .
+this is a game Engine for creating games that can run on the terminal, using ASCII characters as Game Objects .
 
 ### a simple test created using ASCII engine :
 

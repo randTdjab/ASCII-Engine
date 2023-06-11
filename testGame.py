@@ -21,6 +21,7 @@ Obstical = ASCIIEngine.GameObject(random.randint(2,14),62,[],["¤"],2,screen)
 
 Obstical.Draw()
 
+x = 0 
 
 # Updates 
 def Update():
@@ -33,10 +34,9 @@ def Update():
 	if keyboard.is_pressed("a"):
 		Player.MoveL()
 
-
-
-	
-	Obstical.MoveL()
+	if (x <= 64):
+		Obstical.MoveL()
+		x += 1 
 
 
 

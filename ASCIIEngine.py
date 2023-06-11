@@ -23,7 +23,7 @@ class Screen:
 		for i in range(self.width+1):
 			self.c[0][i] = self.Uwall
 		for i in range(self.width+1):
-			self.c[self.height][i] = self.Uwal
+			self.c[self.height][i] = self.Uwall
 
 
 			# Left/Right wall
